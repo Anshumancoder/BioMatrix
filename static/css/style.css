@@ -78,7 +78,6 @@ body {
   overflow: hidden;
 }
 
-/* Animated underline */
 .nav-links a::after {
   content: '';
   position: absolute;
@@ -106,7 +105,6 @@ body {
   z-index: 10;
 }
 
-/* Primary Button */
 .btn-primary {
   background: #0f1a11; 
   color: #29c745; 
@@ -162,7 +160,6 @@ body {
   z-index: 10;
 }
 
-/* Hero Section */
 .hero {
   height: 85vh;
   display: flex;
