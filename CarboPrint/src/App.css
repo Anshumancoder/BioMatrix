@@ -16,8 +16,18 @@ body {
   position: relative;
   z-index: 2;
   min-height: 100vh;
+  overflow-y: hidden; 
+  overflow-x: hidden;
 }
+ html, body {
+  overflow-y: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+ }
 
+ html::-webkit-scrollbar, body::-webkit-scrollbar {
+  display: none;
+ }
 
 .bg-video {
   position: fixed;
